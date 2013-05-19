@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+	<Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+	<Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+	<ProductVersion>10.0.20506</ProductVersion>
+	<SchemaVersion>2.0</SchemaVersion>
+	<ProjectGuid>{DD8BB905-17D1-AAA6-C8A2-213488C298D6}</ProjectGuid>
+	<OutputType>Library</OutputType>
+	<AppDesignerFolder>Properties</AppDesignerFolder>
+	<RootNamespace></RootNamespace>
+	<AssemblyName>Assembly-CSharp</AssemblyName>
+	<TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+	<FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+	<DebugSymbols>true</DebugSymbols>
+	<DebugType>full</DebugType>
+	<Optimize>false</Optimize>
+	<OutputPath>Temp\bin\Debug\</OutputPath>
+	<DefineConstants>DEBUG;TRACE;UNITY_3_5_6;UNITY_3_5;UNITY_EDITOR;ENABLE_PROFILER;UNITY_STANDALONE_WIN;ENABLE_GENERICS;ENABLE_DUCK_TYPING;ENABLE_TERRAIN;ENABLE_MOVIES;ENABLE_WEBCAM;ENABLE_MICROPHONE;ENABLE_NETWORK;ENABLE_CLOTH;ENABLE_WWW;ENABLE_SUBSTANCE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+	<DebugType>pdbonly</DebugType>
+	<Optimize>true</Optimize>
+	<OutputPath>Temp\bin\Release\</OutputPath>
+	<DefineConstants>TRACE</DefineConstants>
+	<ErrorReport>prompt</ErrorReport>
+	<WarningLevel>4</WarningLevel>
+	<NoWarn>0169</NoWarn>
+  </PropertyGroup>
+  <ItemGroup>
+	<Reference Include="System" />
+    <Reference Include="System.XML" />
+	<Reference Include="System.Core" />
+	<Reference Include="UnityEngine">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEngine.dll</HintPath>
+	</Reference>
+	<Reference Include="UnityEditor">
+	  <HintPath>C:/Program Files (x86)/Unity/Editor/Data/Managed/UnityEditor.dll</HintPath>
+	</Reference>
+  </ItemGroup>
+  <ItemGroup>
+     <Compile Include="Assets\CharController.cs" />
+     <Compile Include="Assets\GUIController.cs" />
+     <Compile Include="Assets\MeowButtonCopy.cs" />
+     <Compile Include="Assets\NetworkController.cs" />
+     <Compile Include="Assets\NewBehaviourScript.cs" />
+     <Compile Include="Assets\Resources\SimpleParticlePack\Scripts\ParticleTester.cs" />
+     <Compile Include="Assets\SceneEnd\AlienVictoryText.cs" />
+     <Compile Include="Assets\SceneEnd\ButtonBackToMenu.cs" />
+     <Compile Include="Assets\SceneEnd\HumanVictoryText.cs" />
+     <Compile Include="Assets\SceneGame\Constants.cs" />
+     <Compile Include="Assets\SceneGame\GameButton.cs" />
+     <Compile Include="Assets\SceneGame\Logic\CameraController.cs" />
+     <Compile Include="Assets\SceneGame\Logic\GameSession.cs" />
+     <Compile Include="Assets\SceneGame\Logic\GameStart.cs" />
+     <Compile Include="Assets\SceneGame\Logic\PathElement.cs" />
+     <Compile Include="Assets\SceneGame\Logic\PathManager.cs" />
+     <Compile Include="Assets\SceneGame\Logic\PrefabManager.cs" />
+     <Compile Include="Assets\SceneGame\Logic\TouchScreen.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\Alien.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\AlienArmouredGrunt.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\AlienBoss.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\AlienFast.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\AlienGrunt.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\AlienRebirthing.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Aliens\AlienRegenerating.cs" />
+<<<<<<< local
+=======
+     <Compile Include="Assets\SceneGame\Objects\AoeShockwaveController.cs" />
+>>>>>>> other
+     <Compile Include="Assets\SceneGame\Objects\EndPoint.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Hit Effects\Effect.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Hit Effects\PoisonEffect.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Hit Effects\SlowEffect.cs" />
+     <Compile Include="Assets\SceneGame\Objects\PausableMonoBehaviour.cs" />
+     <Compile Include="Assets\SceneGame\Objects\PoisonCloudController.cs" />
+<<<<<<< local
+=======
+     <Compile Include="Assets\SceneGame\Objects\Projectiles\AoeProjectile.cs" />
+>>>>>>> other
+     <Compile Include="Assets\SceneGame\Objects\Projectiles\PoisonProjectile.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Projectiles\Projectile.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Projectiles\SlowProjectile.cs" />
+     <Compile Include="Assets\SceneGame\Objects\SpawnPoints\AlienBuilder.cs" />
+     <Compile Include="Assets\SceneGame\Objects\SpawnPoints\AlienSpawnPoint.cs" />
+     <Compile Include="Assets\SceneGame\Objects\SpawnPoints\SelectableObject.cs" />
+     <Compile Include="Assets\SceneGame\Objects\SpawnPoints\TowerSpawnPoint.cs" />
+     <Compile Include="Assets\SceneGame\Objects\TerrainHit.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\Tower.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerAoe.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerCannon.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerDot.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerGoldGenerator.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerGun.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerSlow.cs" />
+     <Compile Include="Assets\SceneGame\Objects\Towers\TowerWrapper.cs" />
+     <Compile Include="Assets\SceneGame\PausableButton.cs" />
+     <Compile Include="Assets\SceneGame\UI\ButtonCard.cs" />
+     <Compile Include="Assets\SceneGame\UI\ButtonPauseMenu.cs" />
+     <Compile Include="Assets\SceneGame\UI\ButtonSell.cs" />
+     <Compile Include="Assets\SceneGame\UI\ButtonUpgrade.cs" />
+     <Compile Include="Assets\SceneGame\UI\GUITextHelper.cs" />
+     <Compile Include="Assets\SceneGame\UI\GUITextureHelper.cs" />
+     <Compile Include="Assets\SceneGame\UI\HealthBar.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIBlockLower.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIBlockLowerDetails.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIBlockLowerSelectLeft.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIBlockLowerSelectRight.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIController.cs" />
+     <Compile Include="Assets\SceneGame\UI\UICountDown.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIPauseMask.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIPauseMenu.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIPauseMenuQuit.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIPauseMenuResume.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIRing.cs" />
+     <Compile Include="Assets\SceneGame\UI\UIScreenTextController.cs" />
+     <Compile Include="Assets\SceneGame\UI\UISelectedConfirm.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITextAlienCount.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITextCredits.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITextLife.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITextRound.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITextTime.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITopPanelText.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITowerSelectedCard.cs" />
+     <Compile Include="Assets\SceneGame\UI\UITowerUpgradeCard.cs" />
+<<<<<<< local
+=======
+     <Compile Include="Assets\SceneMenus\BackToMenu.cs" />
+     <Compile Include="Assets\SceneMenus\ClickToContinue.cs" />
+     <Compile Include="Assets\SceneMenus\ClientNetworkController.cs" />
+     <Compile Include="Assets\SceneMenus\FadeInImage.cs" />
+     <Compile Include="Assets\SceneMenus\IPButton.cs" />
+>>>>>>> other
+     <Compile Include="Assets\ScreenDebugger.cs" />
+     <Compile Include="Assets\iTween\Plugins\iTween.cs" />
+     <Compile Include="Assets\iTween\Sample\MoveSample.cs" />
+     <Compile Include="Assets\iTween\Sample\RotateSample.cs" />
+     <Compile Include="Assets\iTween\Sample\SampleInfo.cs" />
+     <None Include="Assets\iTween\ReadMe!\ReadMe!.txt" />
+     <None Include="Assets\Standard Assets\Particles\Sources\Shaders\Particle Alpha Blend (Queue +100).shader" />
+     <None Include="Assets\Models\Monsters\Animation Cycles.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="Assembly-UnityScript-firstpass.unityproj">
+      <Project>{5128C38C-1BF4-B0C8-AC3A-0452B1461CC9}</Project>      <Name>Assembly-UnityScript-firstpass</Name>    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+	   Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+  
+</Project>

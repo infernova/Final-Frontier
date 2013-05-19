@@ -1,0 +1,11 @@
+Fast Monster: Walk cycle = 1-12, Death animation = 16-48
+
+Grunt: Walk Cycle = 1-15, Death animation = 16-48
+
+Armoured: Walk Cycle = 1-23, Death animtation = 24-48
+
+Zombie: Walk Cycle = 1-16, Deatch animation = 16-36, Reanimation animation = 37-47, Disappear animation = 49-56
+
+Regen: Walk Cycle = 1-15, Death animation = 16-32
+
+Boss Alien: Walk Cycle = 1-23, Death animation = 24-48
