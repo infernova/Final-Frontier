@@ -1,0 +1,5 @@
+Base height = 0;
+Full height = 30;
+Tower height = 70;
+Tower width = 15;
+Path width = 20;
